@@ -21,7 +21,7 @@ options.add_argument("--disable-blink-features=AutomationControlled")
 driver = webdriver.Chrome(service=driver_service, options=options) 
 #driver.set_window_position(1320, 0)
 
-driver.get("www.website.com")
+
 
 driver.get("https://web.skype.com/")
 
